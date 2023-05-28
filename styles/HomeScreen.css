@@ -1,0 +1,443 @@
+.home-screen {
+    position: relative;
+    width: 1536px;
+    height: 753px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+    
+    background: linear-gradient(88deg, #084c0c 0%, rgba(10, 95, 13, 0.56) 250%);
+}
+
+.dragon-bg{
+    opacity: 0.3;
+}
+
+.nav-button{
+    position: absolute;
+width: 115.99px;
+height: 39.59px;
+left: 180px;
+top: 48px;
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: black;
+
+box-sizing: border-box;
+
+position: absolute;
+width: 115.99px;
+height: 42.01px;
+left: 180px;
+top: 48px;
+
+/* background: #002608; */
+border: 2px solid black;
+border-radius: 20px;
+}
+
+.nav-button.home{
+    margin-left: 60px;
+    background: black;
+    border: 2px solid #035c16 ;
+    border-radius: 20px;
+}
+
+.home-text{
+    margin-left: 25px;
+    color: #035c16;
+
+    
+}
+
+.text{
+    margin-left: 25px;
+}
+
+
+.nav-button.about{
+    margin-left: 255px;
+}
+
+.nav-button.review{
+    margin-left: 455px;
+}
+
+.white-text{
+    color: #D7DABD;
+}
+
+.intro-text{
+    position: absolute;
+/* width: 339px;
+height: 78px; */
+left: 208px;
+top: 122px;
+
+/* font-family: 'Montserrat'; */
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 45px;
+/* display: flex; */
+align-items: center;
+margin-left: 30px;
+}
+
+.lining{
+    display: flex;
+   
+}
+
+.spacing{
+    margin-left: 10px;
+}
+
+.profile-pic{
+    position: absolute;
+width: 103px;
+height: 103px;
+left: 110px;
+top: 109px;
+
+border-radius: 80%;
+}
+
+.line-graph-container{
+    position: absolute;
+width: 532px;
+height: 281px;
+left: 49px;
+top: 238px;
+
+background: rgba(54, 142, 56, 0.45);
+border-radius: 25px;
+}
+
+.line-graph{
+    margin-top: 10px;
+    /* margin-left:1px; */
+}
+
+
+
+.budget-section{
+    position: absolute;
+    width: 532px;
+    height: 281px;
+    left: 610px;
+    top: 238px;
+    
+    background: rgba(54, 142, 56, 0.45);
+    border-radius: 25px;
+
+}
+.budget-text{
+    /* position: absolute; */
+    width: 321px;
+    height: 78px;
+    left: 636px;
+    top: 272px;
+
+    margin-top: 35px;
+    margin-left: 25px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #002608;
+}
+
+.amount{
+    width: 321px;
+    height: 39px;
+    left: 638px;
+    top: 400px;
+
+    margin-top: 50px;
+    margin-left: 25px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #002608;
+}
+
+.budget-line{
+width: 115px;
+height: 0px;
+left: 981px;
+top: 330px;
+margin-left: 371px;
+
+border: 3px solid #002608;
+}
+
+.budget-input{
+    display: flex;
+}
+
+.rupees{
+width: 20px;
+height: 29px;
+left: 990px;
+top: 304px;
+margin-top: 66px;
+margin-left: 30px;
+}
+
+.budget-value{
+width: 73px;
+height: 52px;
+left: 1009px;
+top: 294px;
+margin-top: 50px;
+margin-left: 10px;
+background: none;
+/* padding: 0 15px 0 15px; */
+
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 49px;
+text-align: center;
+}
+
+.plus-button{
+    box-sizing: border-box;
+
+position: absolute;
+width: 85px;
+height: 85px;
+left: 1396px;
+top: 642px;
+float: right;
+
+background: #307533;
+border: 3px solid rgba(0, 38, 8, 0.5);
+border-radius: 80%;
+}
+
+.plus-button:hover{
+    background: #4E9E4E;
+}
+
+.plus{
+width: 42px;
+height: 40px;
+left: 1418px;
+top: 665px;
+margin-top: 17px;
+margin-left: 18px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 78px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #D7DABD
+}
+
+.doughnut-graph-container{
+        position: absolute;
+    width: 532px;
+    height: 281px;
+    left: 549px;
+    top: 238px;
+    margin-left: 675px;
+    
+    }
+
+.expense-container{
+    position: absolute;
+width: 823px;
+height: 63px;
+left: 51px;
+top: 533px;
+display: flex; 
+flex-direction: column;
+
+background: hsl(122, 77%, 22%);
+border-radius: 20px;
+}
+
+.modal-label{
+   color: black;
+}
+
+.modal-input{
+   color: black;
+width: 544px;
+height: 59px;
+font-size: medium;
+
+background: #D7DABD;
+border-radius: 10px;
+padding-left: 10px;
+
+color: rgba(0, 38, 8, 0.6);
+}
+
+.modal-wrapper{
+    box-sizing: border-box;
+
+position: absolute;
+width: 758px;
+height: 613px;
+margin-left: 350px;
+margin-top: 75px;
+
+background: #2E7432;
+border: 3px solid rgba(0, 38, 8, 0.5);
+border-radius: 10%;
+}
+
+.title{
+    margin-left: 147px;
+    margin-top: 60px;
+}
+
+.money{
+    margin-left: 147px;
+    margin-top: 60px;
+}
+
+.date{
+    margin-left: 147px;
+    margin-top: 60px;
+}
+
+.submit-button{
+    margin-left: 163px;
+    margin-top: 40px;
+
+    position: absolute;
+width: 446px;
+height: 64px;
+
+background: #D7DABD;
+border: 3px solid rgba(54, 142, 56, 0.45);
+border-radius: 15px;
+}
+
+.submit-button:hover{
+    background-color: antiquewhite;
+}
+
+.submit-text{
+    width: 217px;
+height: 39px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+margin-left: 150px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #002608;
+}
+
+.modal-icon{
+    position: absolute;
+width: 57px;
+height: 57px;
+margin-top: 60px;
+margin-left: 60px;
+
+background: #D7DABD;
+border-radius: 5px
+}
+
+.notes{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 65px;
+}
+
+.inr{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 80px;
+    color: black;
+
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+}
+
+.calendar{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.add-expense-text{
+width: 217px;
+height: 39px;
+margin-top: 22px;
+margin-left: 275px;
+
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #002608
+}
+
+.expense-list{
+    display: flex;
+    margin-top: 10px;
+}
+
+.expense-date{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+.expense-title{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+.expense-amount{
+    margin-left: 450px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+.amount-spent{
+    margin-top: 70px;
+    margin-left: 75px;
+    font-size: xx-large;
+    color: black;
+}
+
