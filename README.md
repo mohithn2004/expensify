@@ -1,38 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💰 Expensify - Smart Expense Tracker  
 
-## Getting Started
+Expensify is a **simple and intuitive expense tracker** that helps you **manage your finances**, **set monthly budgets**, and **visualize your spending trends**! 📊  
 
-First, run the development server:
+## 🏗️ Features  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+✅ **User Authentication** (Login & Register) 🔐  
+✅ **Add & Categorize Expenses** 📝  
+✅ **Set Monthly Budgets & Get Alerts** ⚠️  
+✅ **Real-time Spending Visualization** 📊  
+✅ **Track Budget Allocation vs Actual Spending** 💰  
+✅ **User-Friendly Dashboard** with Interactive Charts 📈  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎬 Demo Screenshots  
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+![Page](Snapshots/1.png)  
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+![Page](Snapshots/2.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![Page](Snapshots/3.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## 🚀 Tech Stack  
 
-To learn more about Next.js, take a look at the following resources:
+| Technology  | Description |
+|-------------|------------|
+| **Next.js** ⚛️ | Frontend framework for a seamless UI |
+| **CSS** 🎨 | For modern and responsive design |
+| **Chart.js** 📊 | For data visualization of spending patterns |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Installation & Setup  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1️⃣ **Clone the repository**  
+   ```bash
+   git clone https://github.com/yourusername/expensify.git
+   cd expensify
+   ```
 
-## Deploy on Vercel
+2️⃣ **Install dependencies**  
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3️⃣ **Run the development server**  
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📌 How It Works?  
+
+1️⃣ **Register/Login to your account** 🔐  
+2️⃣ **Add daily expenses with categories** 📝  
+3️⃣ **Set a monthly budget & track usage** 💰  
+4️⃣ **Get alerts when you exceed limits** ⚠️  
+5️⃣ **Visualize spending trends with charts** 📊  
+
+## 📬 Contact  
+
+Have feedback or want to contribute?  
+📧 Email: [mohithn2004@gmail.com](mailto:mohithn2004@gmail.com)  
+🔗 Portfolio: [Mohith N](https://mohithnportfolio.netlify.app/)  
+
+---
+
+Made with ❤️ by **Mohith N** 🚀  
